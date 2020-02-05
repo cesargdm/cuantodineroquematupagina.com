@@ -1,0 +1,43 @@
+*,
+html,
+body,
+p,
+div {
+  margin: 0;
+  border: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 16px 0;
+}
+
+form {
+  display: block;
+  max-width: 400px;
+  margin: 32px auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  appearance: none;
+  padding: 6px 12px;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  font-weight: 600;
+  background-color: #ff9000;
+  border-radius: 4px;
+}
